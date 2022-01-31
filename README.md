@@ -1,17 +1,31 @@
 # MLFromScratch
-Notebooks with explanations for conventional Machine Learning Algorithms     
+Notebooks for conventional Machine Learning Algorithms From Scratch, only used numpy, pandas and might use cvxopt module of convex optimization for implementing SVM with kernels.    
     
-|_ Supervised      
-|  |_ Parametric      
-|  |   |_ LinearRegression      
-|  |   |   |_ Simple Linear Regression      
-|  |   |   |_ Multiple Linear Regression      
-|  |   |_ Logistic Regression      
-|  |   |_ SVM      
-|  |_ Non-Parametric      
-|      |_ KNN      
-|      |_ Naive Bayes      
-|      |_ Decision Tree      
-|      |_ Random Forest      
-|_ Unsupervised      
-|_ PCA
+- 1-Supervised      
+    - (a)-Parametric      
+        - 1-LinearRegression      
+            - 1-Simple Linear Regression      
+            - 2-Multiple Linear Regression      
+        - 2-Logistic Regression      
+        - 3-SVM
+        - 4-Perceptron
+        - 5-Naive Bayes 
+            - 1-Gaussian Distribution
+            - 2-Discret
+    - (b)-Non-Parametric      
+        - 1-KNN           
+        - 2-Decision Tree      
+        - 3-Random Forest
+    - (c)-Dimensionality Reduction
+        - 1-LDA
+    - (d)-Ensemble
+        - 1-AdaBoost
+    - (e)- Artificial Neural Networks
+        - 1-ANN
+- 2-Unsupervised      
+    - (a)-Dimensionality Reduction
+        - 1-PCA
+    - (b)-Clustering
+        - 1- K-means
+        - 2- DBSCAN
+        
